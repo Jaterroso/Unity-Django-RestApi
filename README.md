@@ -9,7 +9,6 @@ Setup s3 amazon and add AWS_ACCESS_KEY_ID ,AWS_SECRET_ACCESS_KEY, AWS_STORAGE_BU
 
 2 - Push server to heroku:
 =============
-.. code:: bash
 
     cd server
 
