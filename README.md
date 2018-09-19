@@ -10,21 +10,22 @@ Setup s3 amazon and add AWS_ACCESS_KEY_ID ,AWS_SECRET_ACCESS_KEY, AWS_STORAGE_BU
 2 - Push server to heroku:
 =============
 .. code:: bash
-  cd server
 
-  heroku create
+    cd server
 
-  git add .
+    heroku create
 
-  git commit -m "initial commit"
+    git add .
 
-  git push heroku master
+    git commit -m "initial commit"
 
-  heroku run python manage.py makemigratiosn
+    git push heroku master
 
-  heroku run python manage.py migrate
+    heroku run python manage.py makemigratiosn
 
-  heroku open
+    heroku run python manage.py migrate
+
+    heroku open
 
 3 - Client
 =============
